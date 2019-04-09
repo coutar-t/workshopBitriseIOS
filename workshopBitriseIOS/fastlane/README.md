@@ -21,6 +21,11 @@ or alternatively using `brew cask install fastlane`
 fastlane ios ci
 ```
 CI
+### ios cd
+```
+fastlane ios cd
+```
+CD
 
 ----
 

@@ -1,0 +1,5 @@
+git_url("git@github.com:coutar-t/workshopBitriseIOS-match.git")
+
+type("development") # The default type, can be: appstore, adhoc, enterprise or development
+app_identifier("com.tc.workshopBitriseIOS")
+username("thibaut.coutard@gmail.com")
