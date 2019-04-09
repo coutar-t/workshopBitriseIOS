@@ -69,5 +69,16 @@ platform :ios do
       build_number: 1,
       xcodeproj: "workshopBitriseIOS.xcodeproj"
     )
+
+    # build for release
+
+    gym(
+      scheme: "workshopBitriseIOS",
+      include_bitcode: true,
+      skip_profile_detection: true,
+      clean: true,
+      codesigning_identity: ENV["APPSTORE_SIGNING_IDENTITY"],
+      verbose: true
+    )
   end
 end
