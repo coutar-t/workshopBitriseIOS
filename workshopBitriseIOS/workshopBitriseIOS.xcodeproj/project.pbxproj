@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F77CABEA1008277C98EB32 /* Pods_workshopBitriseIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D90AA8F2B445BC449C1F0D /* Pods_workshopBitriseIOSTests.framework */; };
+		787DEAC0225D3E7900E6A942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787DEABF225D3E7900E6A942 /* AppDelegate.swift */; };
+		787DEAC2225D3E7900E6A942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787DEAC1225D3E7900E6A942 /* ViewController.swift */; };
+		787DEAC5225D3E7900E6A942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787DEAC3225D3E7900E6A942 /* Main.storyboard */; };
+		787DEAC7225D3E7A00E6A942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787DEAC6225D3E7A00E6A942 /* Assets.xcassets */; };
+		787DEACA225D3E7A00E6A942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787DEAC8225D3E7A00E6A942 /* LaunchScreen.storyboard */; };
+		787DEAD5225D3E7A00E6A942 /* workshopBitriseIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787DEAD4225D3E7A00E6A942 /* workshopBitriseIOSTests.swift */; };
+		C7A1583D681C960B2BC4BBA8 /* Pods_workshopBitriseIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003977F0EE31DEE2A2151D15 /* Pods_workshopBitriseIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		787DEAD1225D3E7A00E6A942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 787DEAB4225D3E7900E6A942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 787DEABB225D3E7900E6A942;
+			remoteInfo = workshopBitriseIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003977F0EE31DEE2A2151D15 /* Pods_workshopBitriseIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workshopBitriseIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0068BC1F32808713F84B41CF /* Pods-workshopBitriseIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workshopBitriseIOSTests.release.xcconfig"; path = "Target Support Files/Pods-workshopBitriseIOSTests/Pods-workshopBitriseIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F9EDC3463F415C35756802A /* Pods-workshopBitriseIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workshopBitriseIOS.release.xcconfig"; path = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS.release.xcconfig"; sourceTree = "<group>"; };
+		787DEABC225D3E7900E6A942 /* workshopBitriseIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workshopBitriseIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		787DEABF225D3E7900E6A942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		787DEAC1225D3E7900E6A942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		787DEAC4225D3E7900E6A942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		787DEAC6225D3E7A00E6A942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		787DEAC9225D3E7A00E6A942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		787DEACB225D3E7A00E6A942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787DEAD0225D3E7A00E6A942 /* workshopBitriseIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workshopBitriseIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787DEAD4225D3E7A00E6A942 /* workshopBitriseIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workshopBitriseIOSTests.swift; sourceTree = "<group>"; };
+		787DEAD6225D3E7A00E6A942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5CC3C24F888DE686EDF304 /* Pods-workshopBitriseIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workshopBitriseIOS.debug.xcconfig"; path = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BC59BF273C20B117FD44A97C /* Pods-workshopBitriseIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workshopBitriseIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-workshopBitriseIOSTests/Pods-workshopBitriseIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8D90AA8F2B445BC449C1F0D /* Pods_workshopBitriseIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workshopBitriseIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		787DEAB9225D3E7900E6A942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A1583D681C960B2BC4BBA8 /* Pods_workshopBitriseIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787DEACD225D3E7A00E6A942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F77CABEA1008277C98EB32 /* Pods_workshopBitriseIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311BAA198456616D60132C74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF5CC3C24F888DE686EDF304 /* Pods-workshopBitriseIOS.debug.xcconfig */,
+				5F9EDC3463F415C35756802A /* Pods-workshopBitriseIOS.release.xcconfig */,
+				BC59BF273C20B117FD44A97C /* Pods-workshopBitriseIOSTests.debug.xcconfig */,
+				0068BC1F32808713F84B41CF /* Pods-workshopBitriseIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		787DEAB3225D3E7900E6A942 = {
+			isa = PBXGroup;
+			children = (
+				787DEABE225D3E7900E6A942 /* workshopBitriseIOS */,
+				787DEAD3225D3E7A00E6A942 /* workshopBitriseIOSTests */,
+				787DEABD225D3E7900E6A942 /* Products */,
+				311BAA198456616D60132C74 /* Pods */,
+				E4E26F1EC7F22549BCD42249 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		787DEABD225D3E7900E6A942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787DEABC225D3E7900E6A942 /* workshopBitriseIOS.app */,
+				787DEAD0225D3E7A00E6A942 /* workshopBitriseIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787DEABE225D3E7900E6A942 /* workshopBitriseIOS */ = {
+			isa = PBXGroup;
+			children = (
+				787DEABF225D3E7900E6A942 /* AppDelegate.swift */,
+				787DEAC1225D3E7900E6A942 /* ViewController.swift */,
+				787DEAC3225D3E7900E6A942 /* Main.storyboard */,
+				787DEAC6225D3E7A00E6A942 /* Assets.xcassets */,
+				787DEAC8225D3E7A00E6A942 /* LaunchScreen.storyboard */,
+				787DEACB225D3E7A00E6A942 /* Info.plist */,
+			);
+			path = workshopBitriseIOS;
+			sourceTree = "<group>";
+		};
+		787DEAD3225D3E7A00E6A942 /* workshopBitriseIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				787DEAD4225D3E7A00E6A942 /* workshopBitriseIOSTests.swift */,
+				787DEAD6225D3E7A00E6A942 /* Info.plist */,
+			);
+			path = workshopBitriseIOSTests;
+			sourceTree = "<group>";
+		};
+		E4E26F1EC7F22549BCD42249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				003977F0EE31DEE2A2151D15 /* Pods_workshopBitriseIOS.framework */,
+				F8D90AA8F2B445BC449C1F0D /* Pods_workshopBitriseIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		787DEABB225D3E7900E6A942 /* workshopBitriseIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787DEAD9225D3E7A00E6A942 /* Build configuration list for PBXNativeTarget "workshopBitriseIOS" */;
+			buildPhases = (
+				79E49882F71FD0670C6A82F1 /* [CP] Check Pods Manifest.lock */,
+				787DEAB8225D3E7900E6A942 /* Sources */,
+				787DEAB9225D3E7900E6A942 /* Frameworks */,
+				787DEABA225D3E7900E6A942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = workshopBitriseIOS;
+			productName = workshopBitriseIOS;
+			productReference = 787DEABC225D3E7900E6A942 /* workshopBitriseIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		787DEACF225D3E7A00E6A942 /* workshopBitriseIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787DEADC225D3E7A00E6A942 /* Build configuration list for PBXNativeTarget "workshopBitriseIOSTests" */;
+			buildPhases = (
+				D8B7D21A1CDC50A58AE5F0E3 /* [CP] Check Pods Manifest.lock */,
+				787DEACC225D3E7A00E6A942 /* Sources */,
+				787DEACD225D3E7A00E6A942 /* Frameworks */,
+				787DEACE225D3E7A00E6A942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787DEAD2225D3E7A00E6A942 /* PBXTargetDependency */,
+			);
+			name = workshopBitriseIOSTests;
+			productName = workshopBitriseIOSTests;
+			productReference = 787DEAD0225D3E7A00E6A942 /* workshopBitriseIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787DEAB4225D3E7900E6A942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thibaut Coutard";
+				TargetAttributes = {
+					787DEABB225D3E7900E6A942 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					787DEACF225D3E7A00E6A942 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 787DEABB225D3E7900E6A942;
+					};
+				};
+			};
+			buildConfigurationList = 787DEAB7225D3E7900E6A942 /* Build configuration list for PBXProject "workshopBitriseIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787DEAB3225D3E7900E6A942;
+			productRefGroup = 787DEABD225D3E7900E6A942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				787DEABB225D3E7900E6A942 /* workshopBitriseIOS */,
+				787DEACF225D3E7A00E6A942 /* workshopBitriseIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		787DEABA225D3E7900E6A942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787DEACA225D3E7A00E6A942 /* LaunchScreen.storyboard in Resources */,
+				787DEAC7225D3E7A00E6A942 /* Assets.xcassets in Resources */,
+				787DEAC5225D3E7900E6A942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787DEACE225D3E7A00E6A942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E49882F71FD0670C6A82F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-workshopBitriseIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8B7D21A1CDC50A58AE5F0E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-workshopBitriseIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		787DEAB8225D3E7900E6A942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787DEAC2225D3E7900E6A942 /* ViewController.swift in Sources */,
+				787DEAC0225D3E7900E6A942 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787DEACC225D3E7A00E6A942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787DEAD5225D3E7A00E6A942 /* workshopBitriseIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787DEAD2225D3E7A00E6A942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 787DEABB225D3E7900E6A942 /* workshopBitriseIOS */;
+			targetProxy = 787DEAD1225D3E7A00E6A942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		787DEAC3225D3E7900E6A942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787DEAC4225D3E7900E6A942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		787DEAC8225D3E7A00E6A942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787DEAC9225D3E7A00E6A942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		787DEAD7225D3E7A00E6A942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		787DEAD8225D3E7A00E6A942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787DEADA225D3E7A00E6A942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5CC3C24F888DE686EDF304 /* Pods-workshopBitriseIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4965NT4QX9;
+				INFOPLIST_FILE = workshopBitriseIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.workshopBitriseIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		787DEADB225D3E7A00E6A942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9EDC3463F415C35756802A /* Pods-workshopBitriseIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4965NT4QX9;
+				INFOPLIST_FILE = workshopBitriseIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.workshopBitriseIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		787DEADD225D3E7A00E6A942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC59BF273C20B117FD44A97C /* Pods-workshopBitriseIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4965NT4QX9;
+				INFOPLIST_FILE = workshopBitriseIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.workshopBitriseIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/workshopBitriseIOS.app/workshopBitriseIOS";
+			};
+			name = Debug;
+		};
+		787DEADE225D3E7A00E6A942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0068BC1F32808713F84B41CF /* Pods-workshopBitriseIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4965NT4QX9;
+				INFOPLIST_FILE = workshopBitriseIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.workshopBitriseIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/workshopBitriseIOS.app/workshopBitriseIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		787DEAB7225D3E7900E6A942 /* Build configuration list for PBXProject "workshopBitriseIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787DEAD7225D3E7A00E6A942 /* Debug */,
+				787DEAD8225D3E7A00E6A942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787DEAD9225D3E7A00E6A942 /* Build configuration list for PBXNativeTarget "workshopBitriseIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787DEADA225D3E7A00E6A942 /* Debug */,
+				787DEADB225D3E7A00E6A942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787DEADC225D3E7A00E6A942 /* Build configuration list for PBXNativeTarget "workshopBitriseIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787DEADD225D3E7A00E6A942 /* Debug */,
+				787DEADE225D3E7A00E6A942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 787DEAB4225D3E7900E6A942 /* Project object */;
+}

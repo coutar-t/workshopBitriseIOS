@@ -1,0 +1,6 @@
+framework module Pods_workshopBitriseIOS {
+  umbrella header "Pods-workshopBitriseIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
