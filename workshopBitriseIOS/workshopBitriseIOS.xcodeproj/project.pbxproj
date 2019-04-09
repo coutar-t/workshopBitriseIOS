@@ -445,28 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 4965NT4QX9;
-				INFOPLIST_FILE = workshopBitriseIOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tc.workshopBitriseIOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5f977f69-7917-47e9-9290-fa3e1f205146";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.tc.workshopBitriseIOS";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		787DEADB225D3E7A00E6A942 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F9EDC3463F415C35756802A /* Pods-workshopBitriseIOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4965NT4QX9;
 				INFOPLIST_FILE = workshopBitriseIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,6 +458,31 @@
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.tc.workshopBitriseIOS";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		787DEADB225D3E7A00E6A942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9EDC3463F415C35756802A /* Pods-workshopBitriseIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4965NT4QX9;
+				INFOPLIST_FILE = workshopBitriseIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.workshopBitriseIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f977f69-7917-47e9-9290-fa3e1f205146";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.tc.workshopBitriseIOS";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
