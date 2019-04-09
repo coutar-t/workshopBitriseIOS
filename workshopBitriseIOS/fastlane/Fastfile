@@ -17,17 +17,25 @@ default_platform(:ios)
 
 platform :ios do
   desc "CI"
-    lane :ci do
-      # pod
-      cocoapods(
-        clean: true
-      )
+  lane :ci do
+    # pod
+    cocoapods(
+      clean: true
+    )
 
-      # test
-      run_tests(
-        workspace: "workshopBitriseIOS.xcworkspace",
-        devices: ["iPhone 6s"],
-        scheme: "workshopBitriseIOS"
-      )
+    # test
+    run_tests(
+      workspace: "workshopBitriseIOS.xcworkspace",
+      devices: ["iPhone 6s"],
+      scheme: "workshopBitriseIOS"
+    )
+
+    # lint
+    swiftlint(
+      executable: "Pods/SwiftLint/swiftlint",
+      output_file: "build/swiftlint_result.json",
+      ignore_exit_status: true
+    )
+
     end
 end

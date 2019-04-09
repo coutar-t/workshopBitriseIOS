@@ -6,7 +6,7 @@ target 'workshopBitriseIOS' do
   use_frameworks!
 
   # Pods for workshopBitriseIOS
-
+  pod 'SwiftLint'
   target 'workshopBitriseIOSTests' do
     inherit! :search_paths
     # Pods for testing

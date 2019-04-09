@@ -6,13 +6,25 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		BF015F48070F0269A1C943A54D4DFB20 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 524AE783EE57CD45281B8C0D5261B0E4 /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		17F923BAB3B64D2349776D3519024008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2FB135D877B096FA0E5A841531DE64A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2960179EABE1A02C3E553C6926E98F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		31329D28ECD6E0595F4D052F49FFD022 /* Pods-workshopBitriseIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C03067AC4718A5900940937703488A /* Pods-workshopBitriseIOS-dummy.m */; };
 		5776D564D2A6E9AFE5A80B8A3F75895A /* Pods-workshopBitriseIOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94521EBC86DD633C7749682FB7DD7CF9 /* Pods-workshopBitriseIOSTests-dummy.m */; };
 		725A3F6B7BAA8E964486C6B06B191263 /* Pods-workshopBitriseIOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F254DBEF3C3F3F941F1481EFDBE4FCE7 /* Pods-workshopBitriseIOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD359557899178431CA96BB743202606 /* Pods-workshopBitriseIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C03067AC4718A5900940937703488A /* Pods-workshopBitriseIOS-dummy.m */; };
-		CF5D2C560379824E3D62552C16287973 /* Pods-workshopBitriseIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3DB80ABD59F83CE66AA3384C2E71D7 /* Pods-workshopBitriseIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81ED3B146D0A6D0A0E212A9F388CC711 /* Pods-workshopBitriseIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3DB80ABD59F83CE66AA3384C2E71D7 /* Pods-workshopBitriseIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,8 +32,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9983D2D6C959061EDB96B04EF4BB9617;
+			remoteGlobalIDString = 8E1C27DEA8FFBA58217FA0596ED54422;
 			remoteInfo = "Pods-workshopBitriseIOS";
+		};
+		23EBE767A3AD8833F31B9A4C6AA5BD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF015F48070F0269A1C943A54D4DFB20;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,6 +54,7 @@
 		38EE1CDA62A5B9FA17CC430E9872371A /* Pods-workshopBitriseIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-workshopBitriseIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		774EECE7C8657541B67B85EEA25089F6 /* Pods-workshopBitriseIOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-workshopBitriseIOSTests.modulemap"; sourceTree = "<group>"; };
 		822F9D1704775A2BB567C91BAA301765 /* Pods-workshopBitriseIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-workshopBitriseIOS.release.xcconfig"; sourceTree = "<group>"; };
+		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
 		94521EBC86DD633C7749682FB7DD7CF9 /* Pods-workshopBitriseIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-workshopBitriseIOSTests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F1D8669E856DB441577144B35A0D8BD /* Pods_workshopBitriseIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_workshopBitriseIOS.framework; path = "Pods-workshopBitriseIOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,19 +69,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A9ABCD235E9D7DAB24998F5CFCE83A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FB135D877B096FA0E5A841531DE64A1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69135BBB2CEC9BBE26DE16C73FFFE614 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17F923BAB3B64D2349776D3519024008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8287F73202F1A16A51A128F66CB55DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2960179EABE1A02C3E553C6926E98F4F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +122,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +152,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				676AF97548D0680EB5DE959F65DF95FA /* Products */,
 				70DE07F6E3967CEB2271370461B9D31C /* Targets Support Files */,
 			);
@@ -144,14 +182,23 @@
 			path = "Target Support Files/Pods-workshopBitriseIOSTests";
 			sourceTree = "<group>";
 		};
+		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B36A8F3464EFE9C2DE7B00B3F28C895 /* Headers */ = {
+		22237752E274113363FF275C60FA688D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5D2C560379824E3D62552C16287973 /* Pods-workshopBitriseIOS-umbrella.h in Headers */,
+				81ED3B146D0A6D0A0E212A9F388CC711 /* Pods-workshopBitriseIOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,18 +213,19 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9983D2D6C959061EDB96B04EF4BB9617 /* Pods-workshopBitriseIOS */ = {
+		8E1C27DEA8FFBA58217FA0596ED54422 /* Pods-workshopBitriseIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55C82F2B9F6FE138E1425F077EBECECC /* Build configuration list for PBXNativeTarget "Pods-workshopBitriseIOS" */;
+			buildConfigurationList = 3CDF9B9B0C5DC6B1C39780FF5E8BC634 /* Build configuration list for PBXNativeTarget "Pods-workshopBitriseIOS" */;
 			buildPhases = (
-				7B36A8F3464EFE9C2DE7B00B3F28C895 /* Headers */,
-				1B486FEF4848E2E80598BFDCFF706053 /* Sources */,
-				4A9ABCD235E9D7DAB24998F5CFCE83A2 /* Frameworks */,
-				28B7CE1C5DDFB83DA3E1B4EDA6CF386B /* Resources */,
+				22237752E274113363FF275C60FA688D /* Headers */,
+				6BCF39AB532BEAC6DB1FFB62467E8A43 /* Sources */,
+				8287F73202F1A16A51A128F66CB55DFE /* Frameworks */,
+				A4ED90A53C955600247004FCA62A133E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				45802AC65EF687636DD46C0343D88280 /* PBXTargetDependency */,
 			);
 			name = "Pods-workshopBitriseIOS";
 			productName = "Pods-workshopBitriseIOS";
@@ -224,21 +272,22 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9983D2D6C959061EDB96B04EF4BB9617 /* Pods-workshopBitriseIOS */,
+				8E1C27DEA8FFBA58217FA0596ED54422 /* Pods-workshopBitriseIOS */,
 				A153E7EBC9A98CFA5DDDF69CAE87BD35 /* Pods-workshopBitriseIOSTests */,
+				BF015F48070F0269A1C943A54D4DFB20 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28B7CE1C5DDFB83DA3E1B4EDA6CF386B /* Resources */ = {
+		90810C063C0C4B2557EF48C0FD9DECF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90810C063C0C4B2557EF48C0FD9DECF3 /* Resources */ = {
+		A4ED90A53C955600247004FCA62A133E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,14 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B486FEF4848E2E80598BFDCFF706053 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD359557899178431CA96BB743202606 /* Pods-workshopBitriseIOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		432DFBEF4AF79B6275640A71D98A4929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,57 +305,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BCF39AB532BEAC6DB1FFB62467E8A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31329D28ECD6E0595F4D052F49FFD022 /* Pods-workshopBitriseIOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		45802AC65EF687636DD46C0343D88280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = BF015F48070F0269A1C943A54D4DFB20 /* SwiftLint */;
+			targetProxy = 23EBE767A3AD8833F31B9A4C6AA5BD27 /* PBXContainerItemProxy */;
+		};
 		463AB3F6F9B0E5E1E9F306BE28AA59D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-workshopBitriseIOS";
-			target = 9983D2D6C959061EDB96B04EF4BB9617 /* Pods-workshopBitriseIOS */;
+			target = 8E1C27DEA8FFBA58217FA0596ED54422 /* Pods-workshopBitriseIOS */;
 			targetProxy = 08EA84A63E3C928D6AC7688A1EC9D7FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01C836D1ACD795E47F38E05E4850782E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 822F9D1704775A2BB567C91BAA301765 /* Pods-workshopBitriseIOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0443785C00AA2965FBABF9E621DCED16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8EE2B0095E53C753C3FB6309492D558 /* Pods-workshopBitriseIOSTests.release.xcconfig */;
@@ -353,6 +369,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4912B909E44256E9CD77ABC0723A94C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		81028AD12AD5E4C4FC38BBDCC6086607 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -452,44 +484,6 @@
 			};
 			name = Release;
 		};
-		BD0402CB00D47755562DB1A37F111878 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29E10F49A366A482AE208DABF9E5B1F3 /* Pods-workshopBitriseIOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -554,9 +548,112 @@
 			};
 			name = Debug;
 		};
+		D8ABE14E62DED4A143950C8F7B6813DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD06152CBE4F55E6B5E4DB386A14B0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 822F9D1704775A2BB567C91BAA301765 /* Pods-workshopBitriseIOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8F616EDA4171BC771ED59AA1C261729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E10F49A366A482AE208DABF9E5B1F3 /* Pods-workshopBitriseIOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-workshopBitriseIOS/Pods-workshopBitriseIOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3CDF9B9B0C5DC6B1C39780FF5E8BC634 /* Build configuration list for PBXNativeTarget "Pods-workshopBitriseIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F616EDA4171BC771ED59AA1C261729 /* Debug */,
+				DD06152CBE4F55E6B5E4DB386A14B0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -566,11 +663,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55C82F2B9F6FE138E1425F077EBECECC /* Build configuration list for PBXNativeTarget "Pods-workshopBitriseIOS" */ = {
+		524AE783EE57CD45281B8C0D5261B0E4 /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD0402CB00D47755562DB1A37F111878 /* Debug */,
-				01C836D1ACD795E47F38E05E4850782E /* Release */,
+				4912B909E44256E9CD77ABC0723A94C6 /* Debug */,
+				D8ABE14E62DED4A143950C8F7B6813DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

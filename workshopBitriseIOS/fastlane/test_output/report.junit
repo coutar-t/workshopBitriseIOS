@@ -2,6 +2,6 @@
 <testsuites name='workshopBitriseIOSTests.xctest' tests='2' failures='0'>
   <testsuite name='workshopBitriseIOSTests.workshopBitriseIOSTests' tests='2' failures='0'>
     <testcase classname='workshopBitriseIOSTests.workshopBitriseIOSTests' name='testExample' time='0.001'/>
-    <testcase classname='workshopBitriseIOSTests.workshopBitriseIOSTests' name='testPerformanceExample' time='0.379'/>
+    <testcase classname='workshopBitriseIOSTests.workshopBitriseIOSTests' name='testPerformanceExample' time='0.309'/>
   </testsuite>
 </testsuites>
