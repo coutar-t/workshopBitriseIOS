@@ -4,3 +4,5 @@
 
 # For more information about the Appfile, see:
 #     https://docs.fastlane.tools/advanced/#appfile
+apple_id("thibaut.coutard@gmail.com")
+app_identifier("com.tc.workshopBitriseIOS")

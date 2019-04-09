@@ -80,5 +80,11 @@ platform :ios do
       codesigning_identity: ENV["APPSTORE_SIGNING_IDENTITY"],
       verbose: true
     )
+
+    # upload to testflight
+    pilot(
+      skip_waiting_for_build_processing: true
+    )
+
   end
 end
