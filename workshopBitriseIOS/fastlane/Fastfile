@@ -37,5 +37,9 @@ platform :ios do
       ignore_exit_status: true
     )
 
+    # slather
+    slather(
+      use_bundle_exec: "true",
+    )
     end
 end
